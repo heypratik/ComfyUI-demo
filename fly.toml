@@ -9,7 +9,7 @@ primary_region = 'ord'
 [[mounts]]
   source = 'models'
   destination = '/app/models'
-  initial_size = '20gb'
+  initial_size = '100gb'
 
 [http_service]
   internal_port = 8188
@@ -21,5 +21,5 @@ primary_region = 'ord'
 
 [[vm]]
   size = 'performance-8x'
-  memory = '16gb'
-  gpu_kind = 'l40s'
+  memory = '32gb'
+  gpu_kind = 'a100-40gb'
